@@ -1,6 +1,6 @@
 const express = require('express')
 require('dotenv').config()
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 const connectDB = require('./config/db')
 const cors =require('cors');
 const authRoutes = require('./routes/authRoutes');
